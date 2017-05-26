@@ -1,0 +1,101 @@
+#life{
+	
+}
+body{
+	background-image: url("background.jpg");
+	
+}
+img{
+	cursor: pointer;
+}
+
+#ls{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+#dv{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+
+#pl{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+
+#bf{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+
+#lsl{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+
+#dvl{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+
+#pll{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+
+#bfl{
+	font-size: 17px;
+	text-align: center;
+	background-color: green;
+	margin:0;
+}
+
+.luke{
+	float:left;
+	border-width: 18px;
+	border-style: solid;
+	border-color: green;
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.vader{
+	float:left;
+	border-width: 18px;
+	border-style: solid;
+	border-color: green;
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.leia{
+	float:left;
+	border-width: 18px;
+	border-style: solid;
+	border-color: green;
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.boba{
+	float:left;
+	border-width: 18px;
+	border-style: solid;
+	border-color: green;
+	border-top: 0px;
+	border-bottom: 0px;
+}

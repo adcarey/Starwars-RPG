@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script
+	src="http://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="	crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<title>StarWars Battle</title>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+		<h1 class="text-center">StarWars Battlefield!</h1>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12">
+		<h2>Pick Your Fighter!</h2>
+			
+			<div class="luke">
+			<h3 id="ls">Luke Skywalker</h3>
+			<area>
+			<img id="skywalker" src="skywalker.jpg" alt="luke skywalker" style="width:150px;height:150px;">
+			</area>
+			<h3 id="lsl">HP 150</h3>
+			</div>
+		
+			<div class="vader">
+			<h3 id="dv">Darth Vader</h3>
+			<img id="darthVader" src="darthVader.jpg" alt="Darth Vader" style="width:150px;height:150px;">
+			<h3 id="dvl">HP 165</h3>
+			</div>
+
+			<div class="leia">
+			<h3 id="pl">Princess Leia</h3>
+			<img id="leia" src="leia.jpeg" alt="Princess Leia" style="width:150px;height:150px;">
+			<h3 id="pll">HP 170</h3>
+			</div>
+
+			<div class="boba">
+			<h3 id="bf">Boba Fett</h3>
+			<img id="bobaFett" src=BobaFett.jpg alt="Boba Fett" style="width:150px;height:150px;">
+			<h3 id="bfl">HP 130</h3>
+			<div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="opponents" class="col-md-12">
+		<h2 id="opponent">Pick your opponent</h2>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12">
+		<button class="BattleButton">Lets Battle!</button>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+		<button class="RestartButton">Restart</button>
+		</div>
+	</div>
+</div>
+
+<script src="function.js"></script>
+</body>
+
+</html>
