@@ -162,7 +162,7 @@ $(".BattleButton").on("click", function(){
 		$(".battles").children(".hp").html("HP " + opponent.hp);
 		$(".selectHero").children(".hp").html("HP " + hero.hp);
 		$("#message").html("<h2>You attacked " + opponent.name + " for " + hero.strength + " damage!<h2>" +"<br>You were counter attacked by " + opponent.name +" for " + opponent.counter + " damage!");
-		hero.strength = hero.strength*1.5;
+		hero.strength = parseInt(hero.strength*1.5);
 	} if(hero.hp <= 0){
 		gameOver = true;
 		$("#message").html("You have been defeated by " + opponent.name);
