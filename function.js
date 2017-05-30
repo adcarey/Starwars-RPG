@@ -77,7 +77,7 @@ function reset(){
 	$("#vader").children(".hp").html("HP "+people.vader.hp);
 	$("#leia").children(".hp").html("HP "+people.leia.hp);
 	$("#boba").children(".hp").html("HP "+people.boba.hp);
-	$("#message").hide();
+	$("#message").empty();
 	$(".enemies").removeClass("enemies").addClass("heros");
 	$(".selectHero").removeClass("selectHero").addClass("heros");
 	$(".battles").removeClass("battles").addClass("heros");
@@ -87,6 +87,9 @@ function reset(){
 	heroPicked = false;
 	opponentPicked = false;
 	opponentsDestroyed = 0;
+	gameOver = false;
+	hero = {};
+	opponent = {};
 }
 
 $(document).ready(function(){
