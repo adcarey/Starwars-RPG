@@ -1,6 +1,4 @@
-#life{
-	
-}
+
 body{
 	background-image: url("background.jpg");
 	
@@ -8,94 +6,43 @@ body{
 img{
 	cursor: pointer;
 }
-
-#ls{
+h3{
 	font-size: 17px;
-	text-align: center;
-	background-color: green;
-	margin:0;
-}
-#dv{
-	font-size: 17px;
-	text-align: center;
-	background-color: green;
-	margin:0;
+	color: blue;
 }
 
-#pl{
-	font-size: 17px;
-	text-align: center;
+.border{
 	background-color: green;
-	margin:0;
+  	border: 7px solid green;
+  	height: 100px;
+  	width: 100px;
+  }
+
+.enemies .border{
+	height: 150px;
+  	width: 150px;
+  	background-color: red;
+  	border: 7px solid red;
+  	position: relative;
+}
+.battles .border{
+	height: 150px;
+  	width: 150px;
+  	background-color: red;
+  	border: 7px solid red;
+  	position: relative;
 }
 
-#bf{
-	font-size: 17px;
-	text-align: center;
-	background-color: green;
-	margin:0;
-}
-
-#lsl{
-	font-size: 17px;
-	text-align: center;
-	background-color: green;
-	margin:0;
-}
-
-#dvl{
-	font-size: 17px;
-	text-align: center;
-	background-color: green;
-	margin:0;
-}
-
-#pll{
-	font-size: 17px;
-	text-align: center;
-	background-color: green;
-	margin:0;
-}
-
-#bfl{
-	font-size: 17px;
-	text-align: center;
-	background-color: green;
-	margin:0;
-}
-
-.luke{
+.heros{
 	float:left;
-	border-width: 18px;
-	border-style: solid;
-	border-color: green;
-	border-top: 0px;
-	border-bottom: 0px;
 }
 
-.vader{
+.enemies{
 	float:left;
-	border-width: 18px;
-	border-style: solid;
-	border-color: green;
-	border-top: 0px;
-	border-bottom: 0px;
+	
+	
 }
 
-.leia{
-	float:left;
-	border-width: 18px;
-	border-style: solid;
-	border-color: green;
-	border-top: 0px;
-	border-bottom: 0px;
-}
 
-.boba{
-	float:left;
-	border-width: 18px;
-	border-style: solid;
-	border-color: green;
-	border-top: 0px;
-	border-bottom: 0px;
-}
+
+
